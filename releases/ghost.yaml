@@ -10,7 +10,7 @@ metadata:
 spec:
   releaseName: ghost
   chart:
-    git: http://gitlab.it.bsmch.net/mitkan/kubernetes.git
+    git: git@gitlab.it.bsmch.net:mitkan/kubernetes.git
     ref: master
     path: charts/ghost
   values:
