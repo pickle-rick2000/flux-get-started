@@ -10,7 +10,7 @@ metadata:
 spec:
   releaseName: ghost
   chart:
-    git: ssh://git@github.com/fluxcd/flux-get-started
+    git: http://gitlab.it.bsmch.net/mitkan/kubernetes.git
     ref: master
     path: charts/ghost
   values:
